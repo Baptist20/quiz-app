@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Assignment.css/quizApp.css">
+  <link rel="stylesheet" href="Assignment.css/all.min.css">
+</head>
+<body>
+  <div id="container">
+    <!-- start -->
+    <div id="start">Start Quiz </div>
+    <!-- rules and regulations -->
+    <div id="rules">
+      <h2>Quiz Guide</h2>
+      <h4> 1. You can only select an answer once.</h4>
+      <h4> 2. Each question has a duration of 20s.</h4>
+      <h4> 3. There 10 questions in total.</h4>
+      <h4> 4. You can exit the quiz if you dont feel prepared.</h4>
+      <div id="button">
+        <button id="exit">
+          Exit
+        </button>
+        <button id="continue">
+          Continue
+        </button>
+      </div>
+    </div>
+    <!-- quiz section -->
+    <div id="quiz">
+      <div id="quiz_header">
+        <h5>My Quiz App</h5>
+        <div id="timer">
+          <h6>Time left</h6>
+          <h6 id="time">00</h6>
+        </div>
+      </div>  
+      <div id="question">
+        <h2 id="questionNo"></h2>
+        <h2 id="questionText"></h2>
+      </div>
+        <!--options-  -->
+        <div id="optionList">
+          <h4 class="choice_que" id="option1"></h4>
+          <h4 class="choice_que" id="option2"></h4>
+          <h4 class="choice_que" id="option3"></h4>
+          <h4 class="choice_que" id="option4"></h4>
+        </div>
+
+        <div id="answerSection">
+          <h3 id="total_correct">3 0f 10 Questions</h3>
+          <h3 id="next_question">Next</h3>
+        </div>
+    </div>
+    <div id="result">
+      <i class="fa-solid fa-trophy"></i>
+      <h6>You Have Completed The Quiz</h6>
+      <h6 id="points">You Got 4 out of 10</h6>
+      <button id="quit">Quit Quiz</button>
+      <button id="startAgain">Start Again</button>
+    </div>
+  </div>
+
+
+
+  <script src="js/quizApp.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+h2{
+  text-align: center;
+}
+#input{
+  margin-left: 440px;
+  text-align: center;
+}
+#btn{
+  margin-left: 550px;
+  margin-top: 10px;
+  width: 150px;
+  height: 32px;
+  border-radius: 18px;
+  background-color: rgb(31, 229, 243);
+  border-color: navy;
+  color: navy
+  ;
+}
+#btn:hover{
+  background-color: navy;
+  color: rgb(31, 229, 243);
+  transition: 0.5s;
+}
+#btn:active{
+  transition: 0.2s;
+  opacity: 0.8;
+}
+#demo{
+  margin-left: 518px;
+  margin-top: 10px;
+  text-align: center;
+}

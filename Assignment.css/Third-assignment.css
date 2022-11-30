@@ -1,0 +1,87 @@
+.first{
+  background-image: url('../Assignment.Images/background2.jfif');
+  background-size: 100%;
+  height: 600px;
+}
+
+.first-body{
+  font-size: 20px;
+  width: px;
+  text-align: center;
+  margin-left: 250px;
+  display: flex;
+  padding-top: 5%;
+  color: aliceblue;
+}
+#about{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.aboutc{
+  display: flex;
+  width: auto;
+}
+#abouti{
+  height: 260px;
+}
+#aboutp{
+ padding-left: 30px;
+ width: 700px;
+}
+#contact{
+  text-align: center;
+}
+.card{
+  margin: 30px;
+  height: fit-content;
+}
+.last{
+  display: flex;
+}
+#send{
+width: fit-content;
+margin-left: 620px
+}
+.form{
+  margin-left: 480px;
+  margin-top: 20px;
+}
+#email{
+  margin-left: 50px;
+  border-radius: 18px;
+  text-align: center;
+}
+#name{
+  border-radius: 18px;
+  text-align: center;
+}
+#message{
+  margin-top: 17px;
+  margin-left: -48px;
+}
+#get{
+  margin-left: 100px;
+  width: fit-content;
+}
+.fa-brands{
+ margin-bottom: 30px;
+ margin-left: 150px;
+}
+.fa-solid{
+ margin-bottom: 30px;
+ margin-left: 150px;
+}
+#btn{
+ width: 150px;
+ border-radius: 18px;
+ margin-left: 230px;
+ margin-top: 30px;
+ border: 40px;
+ background-color: yellow;
+}
+#btn :hover{
+  background-color: rgb(159, 159, 253);
+  color: white;
+  transition: .4s;
+}

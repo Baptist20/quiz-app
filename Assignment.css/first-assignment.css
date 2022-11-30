@@ -1,0 +1,81 @@
+#same{
+  float: right;
+  margin: 10px 10px;
+  border-style: none;
+  background-color: #fff;
+  color: green;
+}
+span{
+  color: green;
+}
+h2{
+  border-bottom: 7px solid green;
+  width: 700px;
+}
+#f-img{
+  width: 200px;
+  height: 200px;
+}
+.hotsoup{
+  display: flex;
+}
+#fp{
+  width: 700px;
+}
+#sp{
+  width: 500px;
+  margin: 10px;
+}
+table{
+  width: 700px;
+}
+table td{
+  background-color: rgb(211, 246, 211);
+}
+table th{
+  background-color: rgb(195, 229, 241);
+}
+form input{
+  background-color: rgb(252, 252, 163);
+  border-style: none;
+  margin: 10px 10px;
+}
+.uf{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+#uf1{
+  width: 250px;
+  background-color: rgb(252, 252, 163);
+  border-style: none;
+  font-weight: bold;
+}
+#uf2{
+  width: 250px;
+  background-color: rgb(252, 252, 163);
+  border-style: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.s1{
+  float: right;
+  width: 350px;
+  background-color: rgb(242, 241, 241);
+  margin-top: -81.5%;
+  border-style: .1px solid;
+  padding: 10px;
+  margin-right: 30px;
+}
+#ms{
+  text-align: center;
+  border-bottom: .1px solid;
+}
+#si{
+  background-color: #fff;
+  border: .1px solid;
+}
+
+#img2{
+  width: 150px;
+  height: 150px;
+}
